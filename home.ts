@@ -4,7 +4,11 @@ import { NavController } from 'ionic-angular';
 
 //for type issues so that typeScript knows what google object is
 declare var google;
-// or run this command in terminal: npm install @types/google-maps --save 
+// or run this command in terminal:
+//  ionic cordova plugin add cordova-plugin-geolocation
+// npm install @types/google-maps --save 
+//if above one fails
+// npm install --save @ionic-native/geolocation
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
